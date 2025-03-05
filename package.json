@@ -1,0 +1,36 @@
+{
+  "name": "web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "cryptr": "^6.3.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "image-data-uri": "^2.0.1",
+    "js-base64": "^3.7.7",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.5",
+    "node-base64-image": "^2.0.7",
+    "node-rsa": "^1.1.1",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5",
+    "uuid": "^11.0.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.1.7"
+  }
+}
