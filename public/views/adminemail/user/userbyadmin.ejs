@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <title>Welcome to <%= appname %>
+    </title>
+    <meta name="description" content="Reset Password Email Template.">
+    <style type="text/css">
+        a:hover {
+            text-decoration: underline !important;
+        }
+    </style>
+</head>
+
+<body marginheight="0" topmargin="0" marginwidth="0" style="margin: 0px; background-color: #000;" leftmargin="0">
+    <!--100% body table-->
+    <table cellspacing="0" border="0" cellpadding="0" width="100%" bgcolor="#000"
+        style="@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Open+Sans:300,400,600,700); font-family: 'Open Sans', sans-serif;">
+        <tr>
+            <td>
+                <table
+                    style="background-color: #000; max-width:670px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; margin:0 auto;"
+                    width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="height:80px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0"
+                                style="max-width:670px;background:#fff; border-radius:3px; text-align:center;-webkit-box-shadow:0 6px 18px 0 rgba(0,0,0,.06);-moz-box-shadow:0 6px 18px 0 rgba(0,0,0,.06);box-shadow:0 6px 18px 0 rgba(0,0,0,.06);">
+                                <tr>
+                                    <td style="height:40px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:center;">
+                                        <a href="<%= appweblink %>" title="logo" target="_blank" style="margin-bottom: 30px;">
+                                            <img width="200"
+                                                src="<%= logo %>"
+                                                title="logo" alt="logo">
+                                        </a>
+                                        <h1 style="color: black;">Welcome</h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height:20px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding:0 35px;">
+                                        <p> Dear <b>
+                                                <%= username %>
+                                            </b> </p>
+                                        <p style="text-align:center; font-family:'Rubik',sans-serif;">Your User account
+                                            created by admin use below details and upload your document and bank
+                                            details.</p>
+                                        <table style="border-collapse: collapse;width: 100%;">
+                                            <tr>
+                                                <th colspan="2"
+                                                    style="border: 1px solid #ddd;padding: 8px; padding-top: 12px;padding-bottom: 12px;text-align: center;background-color: #000000;color: white;">
+                                                    User Details</th>
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #ddd;padding: 8px;">Name</td>
+                                                <td style="border: 1px solid #ddd;padding: 8px;">
+                                                    <%= username %>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #ddd;padding: 8px;">Email</td>
+                                                <td style="border: 1px solid #ddd;padding: 8px;">
+                                                    <%= email %>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #ddd;padding: 8px;">Password</td>
+                                                <td style="border: 1px solid #ddd;padding: 8px;">
+                                                    <%= password %>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height:40px;">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    <tr>
+                        <td style="height:20px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center;">
+                            <p
+                                style="font-size:14px; color:rgba(69, 80, 86, 0.7411764705882353); line-height:18px; margin:0 0 0;">
+                                &copy; <strong>
+                                    <a href="<%= appweblink %>">
+                                        <%= appname %>
+                                    </a>
+                                </strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:80px;">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
